@@ -1,0 +1,25 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It is the fastest sorting type on a sorted list
+    real    0m0.069s
+    user    0m0.004s
+    sys     0m0.045s
+    sort2 uses: Merge Sort
+
+How do you know?: It is the fastes sorting type on random list
+    real    0m0.114s
+    user    0m0.003s
+    sys     0m0.046s
+
+sort3 uses: Selection Sort
+
+How do you know?: It is the slowest sorting type on any type of list
+    real    0m0.174s
+    user    0m0.123s
+    sys     0m0.035s
+
+    and
+
+    real    0m0.185s
+    user    0m0.136s
+    sys     0m0.017s

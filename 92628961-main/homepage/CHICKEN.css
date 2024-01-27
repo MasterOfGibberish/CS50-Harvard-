@@ -1,0 +1,27 @@
+p {
+    font-size: 23px;
+    margin-Bottom: 10px;
+    margin-right: 880px;
+    margin-left: 250px;
+    color: red;
+}
+h1 {
+    margin-Bottom: 1px;
+    font-size: 50px;
+    margin-Bottom: 10px;
+    margin-right: 880px;
+    margin-left: 180px;
+    color: goldenrod;
+}
+@keyframes blink {
+50% {
+    opacity: 0%
+}
+  }
+.index-1 {
+color: red;
+/* animation: blink 1s linear infinite; */
+padding: 40px;
+font-size: 40px;
+  }
+  

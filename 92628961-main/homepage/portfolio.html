@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>PROFILE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href='portfolio.css' rel='stylesheet' type='text/css'>
+<script src="https://kit.fontawesome.com/8f13849e5c.js" crossorigin="anonymous"></script>
+<body>
+
+  <div class="nav">
+    <div class="container">
+      <ul>
+        <li><a class="logo" href="http://127.0.0.1:8080/about.html" target="_blank">LAIBEIL</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="boxContainer">
+    <table class="elementsContainer">
+      <tr>
+        <td>
+          <input type="text" placeholder="Search" class="search">
+        </td>
+        <td>
+          <a href="a"><i class="material-icons">search</i></a>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+
+<div class="main-box">
+  <input type="checkbox" id="check">
+  <div class="btn_one">
+    <label for="check">
+      <i class="fas fa-bars"></i>
+    </label>
+  </div>
+  <div class="sidebar-menu">
+  <div class="logo">
+
+    <div class="btn_two">
+      <label for="check">
+        <i class="far fa-times-circle"></i>
+      </label>
+    </div>
+    <ul>
+  <!-- Avatar image in top left corner -->
+
+        <li><a href="http://127.0.0.1:8080/index.html"><i class="fas fa-home"></i>
+          HOME</a></li>
+        <li><a href="http://127.0.0.1:8080/about.html" target="_blank"><i class="far fa-address-card"></i>
+          ABOUT</a></li>
+        <li><a href="https://github.com/MasterOfGibberish" target="_blank"><i class="fas fa-address-book"></i>
+          CONTACT</a></li>
+        <li><a href="http://127.0.0.1:8080/Register.html" target="_blank"><i class="far fa-comment-dots"></i>
+            HELP</a></li>
+    </ul>
+
+      </div>
+  </div>
+</div>
+
+<div class="header">
+  <div class="container">
+    <h1>IN ORDER TO KNOW THE SPONSORS TYPE IN SEARCH!</h1>
+  </div>
+</div>
+
+<div class="nav1">
+</div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+      <div class="container">
+      <footer>
+    <i class="fa fa-facebook-official"></i>
+    <i class="fa fa-instagram "></i>
+    <i class="fa fa-snapchat "></i>
+    <i class="fa fa-pinterest-p "></i>
+    <i class="fa fa-twitter "></i>
+    <i class="fa fa-linkedin "></i>
+    <p class="w3-medium">Powered by <a href="http://127.0.0.1:5500/Naujas/About.html" target="_blank" class="w3-hover-text-green">&copy; LS &copy; GU</a></p>
+  <!-- End footer -->
+       </footer>
+    </div>
+</div>
+
+<!-- END PAGE CONTENT -->
+<script src="large.js"></script>
+<script>
+
+    let input = document.querySelector('input');
+    input.addEventListener('keyup', function(event) {
+        let html = '';
+        if (input.value) {
+            for (word of WORDS) {
+                if (word.startsWith(input.value)) {
+                    html += `<li>${word}</li>`;
+                }
+            }
+        }
+        document.querySelector('ul').innerHTML = html;
+    });
+
+    </script>
+  </body>
+</html>
