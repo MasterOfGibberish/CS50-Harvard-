@@ -1,0 +1,1 @@
+This is all my code from the CS50 Harvard course. It includes Python, Web development, C, SQL, and Flask. I mostly enjoyed working with the Flask framework, filter-more/filter-less task where I had to program various photo filters with C, and the final project deployed at GitHub distinctively.
